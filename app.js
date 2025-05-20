@@ -3,13 +3,23 @@ import express from 'express';
 import { DataSource } from 'typeorm';
 import config from './ormconfig.js';
 import dotenv from 'dotenv';
+import authRoutes from './src/routes/authRoutes.js';
+import { AppDataSource } from './src/config/db.js';
+
 dotenv.config();
 
 // import routes later here
 const app = express();
 app.use(express.json());
+app.use(express.urlencoded({ extended: true })); 
 
-const AppDataSource = new DataSource(config);
+app.use('/api/auth', authRoutes);
+
+app.get('/', (req, res) => {
+  res.send('Welcome to the API');
+});
+
+
 
 AppDataSource.initialize()
   .then(() => {

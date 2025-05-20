@@ -11,4 +11,4 @@ export default {
   entities: ['src/entities/**/*.js'],
   synchronize: true, 
   logging: false,
-};
+}; 
