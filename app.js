@@ -7,6 +7,8 @@ import authRoutes from './src/routes/authRoutes.js';
 import { AppDataSource } from './src/config/db.js';
 import softwareRoutes from './src/routes/softwareRoutes.js';
 
+import requestRoutes from './src/routes/requestRoutes.js';
+
 
 dotenv.config();
 
@@ -17,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/software', softwareRoutes);
-
+app.use('/api/requests', requestRoutes);
 app.get('/', (req, res) => {
   res.send('Welcome to the API');
 });
