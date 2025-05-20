@@ -5,6 +5,8 @@ import config from './ormconfig.js';
 import dotenv from 'dotenv';
 import authRoutes from './src/routes/authRoutes.js';
 import { AppDataSource } from './src/config/db.js';
+import softwareRoutes from './src/routes/softwareRoutes.js';
+
 
 dotenv.config();
 
@@ -14,6 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
 
 app.use('/api/auth', authRoutes);
+app.use('/api/software', softwareRoutes);
 
 app.get('/', (req, res) => {
   res.send('Welcome to the API');

@@ -13,7 +13,7 @@ export const signUpService = async ({ username, password }) => {
   const newUser = await userRepository.create({
     username,
     password: hashedPassword,
-    role: 'Employee' // default role
+    role: 'Admin' // default role
   });
 
   return { id: newUser.id, username: newUser.username, role: newUser.role };
