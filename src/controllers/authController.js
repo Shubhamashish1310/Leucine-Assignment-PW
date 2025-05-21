@@ -1,7 +1,6 @@
 import { signUpService, loginService } from '../services/authService.js';
 
 export const signUp = async (req,res) => {
-    console.log('signUp called');
   console.log('signUp called with:', req.body);
   try {
     if (!req.body) {

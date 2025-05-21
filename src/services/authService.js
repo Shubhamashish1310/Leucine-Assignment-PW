@@ -24,7 +24,8 @@ export const loginService = async ({ username, password }) => {
     throw { statusCode: 404, message: 'User not found' };
   }
 
-  const match = bcrypt.compare(password, user.password);
+  const match = await bcrypt.compare(password, user.password);
+  
   if (!match) {
     throw { statusCode: 401, message: 'Invalid credentials' };
   }
