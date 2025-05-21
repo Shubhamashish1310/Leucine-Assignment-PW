@@ -18,6 +18,7 @@ export const User = new EntitySchema({
     },
     role: {
       type: 'varchar',
+      default: 'Manager', // 'employee' | 'admin'
     },
   },
 });
