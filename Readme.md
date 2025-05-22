@@ -160,7 +160,7 @@ JWT_SECRET=your_jwt_secret
 
 If you liked this project or have feedback:
 
-* 🧑‍💻 Shubham Kumar ![UPI](shubham.ashish@oksbi)
+* 🧑‍💻 Shubham Kumar ![UPI](/src/Images/qr.jpg)
 * 📧 [shubham.ashish@gmail.com](mailto:shubham.ashish@gmail.com)
 
 ---
