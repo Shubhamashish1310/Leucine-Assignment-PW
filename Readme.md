@@ -14,14 +14,14 @@ A full-stack role-based access system built using **Node.js**, **React**, **Post
 
 | Login Page                      | Signup Page                       |
 | ------------------------------- | --------------------------------- |
-| !![Login](/src/Images/image-1.png) | ![Signup](/src/Images/image-3.png) |
+| !![Login](/backend/src/Images/image-1.png) | ![Signup](/backend/src/Images/image-3.png) |
 
 | Create Software (Admin)                    | Request Access (Employee)                  | Pending Requests (Manager)                   |
 | ------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
-| ![Create Software](/src/Images/image.png) | ![Request Access](/src/Images/image-2.png)| ![Manager](/src/Images/image-4.png) |
+| ![Create Software](/backend/src/Images/image.png) | ![Request Access](/backend/src/Images/image-2.png)| ![Manager](/backend/src/Images/image-4.png) |
 
 Database
-![Postgre](image.png)
+![Postgre](/backend/src/Images/DB.png)
 
 ---
 
@@ -163,7 +163,7 @@ JWT_SECRET=your_jwt_secret
 
 If you liked this project or have feedback:
 
-* 🧑‍💻 Shubham Kumar ![UPI](/src/Images/qr.jpg)
+* 🧑‍💻 Shubham Kumar ![UPI](/backend/src/Images/qr.jpg)
 * 📧 [shubham.ashish@gmail.com](mailto:shubham.ashish@gmail.com)
 
 ---
