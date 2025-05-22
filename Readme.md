@@ -6,19 +6,19 @@ A full-stack role-based access system built using **Node.js**, **React**, **Post
 
 ## 📽️ Demo Video
 
-👉 [Watch Demo Video Here](#) <!-- Replace # with your actual video link -->
-
+👉 [https://youtu.be/UM_H6Tz0fSg](#) 
+`My Youtube Channel`
 ---
 
 ## 📸 Screenshots
 
 | Login Page                      | Signup Page                       |
 | ------------------------------- | --------------------------------- |
-| ![Login](screenshots/login.png) | ![Signup](screenshots/signup.png) |
+| !![Login](/src/Images/image-1.png) | ![Signup](/src/Images/image-3.png) |
 
 | Create Software (Admin)                    | Request Access (Employee)                  | Pending Requests (Manager)                   |
 | ------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
-| ![Create](screenshots/create-software.png) | ![Request](screenshots/request-access.png) | ![Manager](screenshots/pending-requests.png) |
+| ![Create Software](/src/Images/image.png) | ![Request Access](/src/Images/image-2.png)| ![Manager](/src/Images/image-4.png) |
 
 ---
 
@@ -160,7 +160,7 @@ JWT_SECRET=your_jwt_secret
 
 If you liked this project or have feedback:
 
-* 🧑‍💻 Shubham Kumar
+* 🧑‍💻 Shubham Kumar ![UPI](shubham.ashish@oksbi)
 * 📧 [shubham.ashish@gmail.com](mailto:shubham.ashish@gmail.com)
 
 ---
