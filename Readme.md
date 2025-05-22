@@ -20,6 +20,9 @@ A full-stack role-based access system built using **Node.js**, **React**, **Post
 | ------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
 | ![Create Software](/src/Images/image.png) | ![Request Access](/src/Images/image-2.png)| ![Manager](/src/Images/image-4.png) |
 
+Database
+![Postgre](image.png)
+
 ---
 
 ## 🧠 Features
